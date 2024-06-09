@@ -4,6 +4,8 @@ from PIL import Image
 from util import get_limits
 
 yellow = [0, 255, 255]  # yellow in BGR colorspace
+blue = [255, 0, 0] #blue in bgr colorspace
+darkpink = [102, 0, 102] #darkpink in bgr colorspace
 
 # Define the video capture object
 cap = cv2.VideoCapture(0)  # 0 indicates the default camera
